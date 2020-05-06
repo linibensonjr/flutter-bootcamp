@@ -11,12 +11,9 @@ class _CreateTripState extends State<CreateTrip> {
   String departure = '';
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: Text('Create Trip'),
-          backgroundColor: Colors.white,
-        ),
-        body: Container(
+    return MaterialApp(
+        
+        home: Container(
           padding: EdgeInsets.all(20.0),
             child: Column(
               children: <Widget>[
