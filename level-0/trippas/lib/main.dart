@@ -12,7 +12,6 @@ class TripPage extends StatelessWidget {
   // This widget is the root of your application.
   Widget build(BuildContext context) {
     return Scaffold(
-
             body: Container(
               padding: EdgeInsets.only(top: 50.0, left: 25.0, right: 20.0),
               color: Colors.white,
